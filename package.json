@@ -2,6 +2,7 @@
   "name": "ai-games-shop",
   "version": "0.0.0",
   "scripts": {
+    "comp": "ng g c",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

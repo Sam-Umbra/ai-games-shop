@@ -1,0 +1,13 @@
+<app-footer></app-footer>
+{{ name }}
+<br>
+<img [src]="imgUrl" alt="Im" width="100px" height="100px">
+<br>
+<button (click)="handleClick()">Click</button>
+@if (count() == 0) {
+    <p>O contador é zero</p>
+} @else if (count() == 1) {
+    <p>O contador é maior que zero</p>    
+} @else {
+    <p>O cont é mais q 2</p>
+}
